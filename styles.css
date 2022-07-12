@@ -1,0 +1,28 @@
+.primeraClase {
+    background-color: blue;
+    color: red;
+}
+
+.hola {
+    background-color: lightcoral;
+    color: teal;
+}
+
+* {
+    color: lightgreen;
+}
+
+.divSinContenido {
+    background-color: lightblue;
+    height: 25px;
+    width: 90%;
+}
+
+body {
+    margin: 0;
+}
+
+footer {
+    position: relative;
+    top: 60px;
+}
