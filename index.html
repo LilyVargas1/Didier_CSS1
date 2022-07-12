@@ -30,6 +30,10 @@
     <div class="divSinContenido">
 
     </div>
+
+    <a href="https://www.google.com">Google</a>
+    <a href="https://www.facebook.com">Facebook</a>
+
     <!--
         Estudio de un div
         <div></div>
@@ -50,6 +54,28 @@
 
         width puede abarcar pulgadas, pixeles, % de la páginas, rem
         height usar siempre px, porque con % no aparece
+
+        Especificidad: Aplicar estilos según se encuentre lo más específico posible
+        _ _ _
+        9 9 9 !IMPORTANT
+        1 0 0  ID
+        0 1 0  CLASS
+        0 0 1  TAG
+        0 0 0  para todo *
+
+
+
+        id (#id, #cajas)
+        class (.clase, .caja)
+        tags (div, span, p, h1, h2)
+
+        !important pone especificidad de 9 9 9 pero es una mala práctica
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box; //especifica el comportamiento de (respeta) las propiedades ancho y alto
+        }
     -->
 
 </body>

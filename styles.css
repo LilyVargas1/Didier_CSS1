@@ -26,3 +26,7 @@ footer {
     position: relative;
     top: 60px;
 }
+
+a{
+    display: block;
+}
